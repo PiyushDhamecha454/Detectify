@@ -5,7 +5,7 @@ from PIL import Image
 
 st.set_page_config(page_title="Feature Detection App", layout="centered")
 
-st.title("🔍 Feature Detection using OpenCV")
+st.title("Detectify 🔍 - Feature Detection using OpenCV")
 
 # Sidebar options
 algo = st.selectbox("Choose Algorithm", ["SIFT", "Harris Corner", "Shi-Tomasi"])
